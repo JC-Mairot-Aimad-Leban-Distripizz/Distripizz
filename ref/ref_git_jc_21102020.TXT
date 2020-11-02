@@ -1,0 +1,37 @@
+-------- création du lien au projet et premier push -------------------------------
+
+1-- git config --global user.name "ton nom"
+2-- git config --global user.email "adresse@gmail.com"
+3-- git (pour voir toutes les fonction de git)
+4-- git --version (donne la version de git)
+5-- Créer un projet sur github (public/nom/description/..)
+6-- Dans le répertoire du projet commande bash
+7-- git init
+8-- git add . (ou git add *)
+9-- git commit -m "... txt explication du commit"
+10- on retourne dans github on récup le http du projet dans l'onglet/bouton code
+11- bash vscode: git remote add origin http.............(de github)
+12- git remote -v (verif)
+13- git push origin master (on pousse vers github le projet)
+
+-----------------------------------------------------------------------------------
+ 
+-------- travail sur les branch ---------------------------------------------------
+
+1-- git branch toto (crée la branch toto)
+2-- git branch (donne une visu sur les branch présente)
+3-- git checkout toto (on rentre sur la branch toto)
+
+-------- 
+4-- git add index.html
+5-- git commit -m "modif toto"
+6-- git checkout master
+7-- git merge toto
+8-- git log (voir si le commit sur master)
+9-- git branch -d toto (supprime une branch)
+10- git branch (voir si c bon)
+11- git push origin master
+
+<<q pour quitter ou Ctrl +c>>
+
+
