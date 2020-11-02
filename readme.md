@@ -3,11 +3,11 @@
 **Client :** Distripizz
 **Equipe :**
 
-    * Dev Back end (principal) : Jean Christophe Mairot
-    * Dev Front end (principal) : Aimad Leban
-    * Tuteur : Pascal Moreno
+    - Dev Back end (principal) : Jean Christophe Mairot
+    - Dev Front end (principal) : Aimad Leban
+    - Tuteur : Pascal Moreno
 
-**Description du projet 02 :**
+**Description du projet:**
 
 1. Réalisation d'une maquette et présentation à Distripizz : email mardi soir pour la maquette .
 2. Validation mercredi 04 novembre du devis par Distripizz.
@@ -21,33 +21,34 @@
 10. Nombre de jours ouvrés 8 à partir du mercredi 04/11/2020 et livrable au lundi 16 novembre 8h30.
 
 **Validations des taches :**
-[ ] realisation de la maquette Aimad
-[x] Dossier ref : contenu txt du client, maquette.jpg, divers ref liens utile etc...
-[x] Dossier asset : css et js
-[x] Dossier img : divers images et video (bien nomé chaque images)
-[x] Dossier inc : include php
 
-        [x] fonctions : contient les divers fonctions appelées dans le site en PHP
-        [x] header : contient tous les elements du header avec la nav include dans chaque page
-        [x] footer : contient tous les elements du footer include dans chaque page
-        [x] init : contient tous la connexion à la bdd include dans chaque page
-    [ ]
-    [ ] 1 page d'accueil (index.php)
-    [ ] 1 formulaire de creation de compte  (inscription.php) ( method="post" & name="nom_court_minuscule_sans_accents")
-    [ ] 1 login (page: login.php)(sign-in)
-    [ ] 1 base de données pdo (table client : id name lastname email password)
-    [ ] messages d'alert champs non renseigné etc...
-    [ ] integration de bootstrap
-    [ ] Option : gestion de session client/admin
-    [ ] Option : gestion de cookies
-    [ ] Option : gestion connexion/deconnexion
+- [ ] realisation de la maquette Aimad
+- [x] Dossier ref : contenu txt du client, maquette.jpg, divers ref liens utile etc...
+- [x] Dossier asset : css et js
+- [x] Dossier img : divers images et video (bien nomé chaque images)
+- [x] Dossier inc : include php
+
+        - [x] fonctions : contient les divers fonctions appelées dans le site en PHP
+        - [x] header : contient tous les elements du header avec la nav include dans chaque page
+        - [x] footer : contient tous les elements du footer include dans chaque page
+        - [x] init : contient tous la connexion à la bdd include dans chaque page
+
+  - [ ] 1 page d'accueil (index.php)
+  - [ ] 1 formulaire de creation de compte (inscription.php) ( method="post" & name="nom_court_minuscule_sans_accents")
+  - [ ] 1 login (page: login.php)(sign-in)
+  - [ ] 1 base de données pdo (table client : id name lastname email password)
+  - [ ] messages d'alert champs non renseigné etc...
+  - [ ] integration de bootstrap
+  - [ ] Option : gestion de session client/admin
+  - [ ] Option : gestion de cookies
+  - [ ] Option : gestion connexion/deconnexion
 
 **Description des Branch :**
 
-    * branch master : juste pour le pull et le push
-    * branch front : c'est la branch pour la personne qui dev la partie front
-    * branch back : c'est la branch pour la personne qui dev la partie back
-    * branch éphémère : on peut créer suivant le besoins, des branch qui seront delete en fin de journée
+    - branch master : juste pour le pull et le push
+    - branch front : c'est la branch pour la personne qui dev la partie front
+    - branch back : c'est la branch pour la personne qui dev la partie back
+    - branch éphémère : on peut créer suivant le besoins, des branch qui seront delete en fin de journée
 
 **REF des manipulations git :**
 
