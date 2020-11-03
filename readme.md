@@ -3,8 +3,9 @@
 **Client :** Distripizz
 **Equipe :**
 
-    - Dev Back end (principal) : Jean Christophe Mairot
-    - Dev Front end (principal) : Aimad Leban
+    - Dev Back end : Jean Christophe Mairot
+    - Dev Front end : Aimad Leban
+    - Dev Front end : Zakari yaet
     - Tuteur : Pascal Moreno
 
 **Description du projet:**
