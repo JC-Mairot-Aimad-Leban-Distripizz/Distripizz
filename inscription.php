@@ -10,7 +10,7 @@ require_once('inc/header.php');
 
 
 
-//php et html pour le corps de la page
+<h1>Tous est dans la doc</h1>
 
 
 

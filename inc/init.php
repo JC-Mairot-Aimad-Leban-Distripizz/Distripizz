@@ -5,14 +5,14 @@ session_start();
 
 // CONNEXION A LA BDD 
 //
-$pdo = new PDO('mysql:host=localhost;dbname=collaborateurs', 'root', '', array(
+$pdo = new PDO('mysql:host=localhost;dbname=distripizz', 'root', '', array(
 	PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,
 	PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,	
 	PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 ));
 
-
-
+// VARIABLES 
+$error = ''; 
 
 //inclusion du fichier des fonctions future
 include('fonctions.php')
