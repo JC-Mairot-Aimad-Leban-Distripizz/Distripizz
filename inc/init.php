@@ -11,7 +11,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=distripizz', 'root', '', array(
 	PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 ));
 
-// VARIABLES 
+// varible pour les erreurs 
 $error = ''; 
 
 //inclusion du fichier des fonctions future
