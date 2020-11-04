@@ -41,8 +41,9 @@ require_once('inc/header.php');
 ?>
 
 <h1>Connexion</h1>
-
-	<?= $error ?> <!---------->
+	<!----message d'erreur------>
+	<?= $error ?> 
+	<!-- formulaire pour le login -->
 	<form method="post" action="" class="">
 	
 		<div class="form-group">
