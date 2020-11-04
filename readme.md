@@ -23,7 +23,7 @@
 
 **Validations des taches :**
 
-- [ ] realisation de la maquette Aimad
+- [x] realisation de la maquette jc/Aimed
 - [x] Dossier ref : contenu txt du client, maquette.jpg, divers ref liens utile etc...
 - [x] Dossier asset : css et js
 - [x] Dossier img : divers images et video (bien nomé chaque images)
@@ -35,11 +35,11 @@
 - [x] init : contient tous la connexion à la bdd include dans chaque page
 
 - [ ] 1 page d'accueil (index.php)
-- [ ] 1 formulaire de creation de compte (inscription.php) ( method="post" & name="nom_court_minuscule_sans_accents")
-- [ ] 1 login (page: login.php)(sign-in)
-- [ ] 1 base de données pdo (table client : id name lastname email password)
-- [ ] messages d'alert champs non renseigné etc...
-- [ ] integration de bootstrap
+- [ ] 1 formulaire de creation de compte gestion admin(inscription.php) ( method="post" & name="nom_court_minuscule_sans_accents")
+- [x] 1 login (page: login.php)(sign-in)
+- [x] 1 base de données pdo (table collaborateurs : id name lastname email password)
+- [x] messages d'alert champs non renseigné etc...
+- [x] integration de bootstrap
 - [ ] Option : gestion de session client/admin
 - [ ] Option : gestion de cookies
 - [ ] Option : gestion connexion/deconnexion
