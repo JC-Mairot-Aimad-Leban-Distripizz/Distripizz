@@ -1,3 +1,51 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainHead {
+  background-color: rgb(237, 237, 237);
+  color: rgb(186, 22, 29);
+  box-shadow: 5px #333;
+}
+.zakNav {
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.title-distripizz {
+  text-align: center;
+  margin: 0;
+}
+
+.title-distripizz a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(186, 22, 29);
+}
+.zakbouton {
+  margin: 0 10px;
+}
 .test {
   border: 2px red solid;
+}
+.elem2 {
+  display: flex;
+}
+.tel {
+  background: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.tel:hover {
+  width: 150px;
+  border-radius: 20px;
 }

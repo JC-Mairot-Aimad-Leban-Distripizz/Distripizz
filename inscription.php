@@ -54,13 +54,6 @@ if($_POST){
     }
 
 
-
-
-
-
-
-
-
 // tout est ok pour la saisie dans le formulaire d'inscription
     if(empty($error)){
 
@@ -76,19 +69,8 @@ if($_POST){
         $resultatFistName -> bindParam(':firstname', $_POST['firstname'], PDO::PARAM_STR);
         $resultatFistName -> execute();
         
-        // signifie que le nom est sur une ligne de la base de donnée
-        $countLineName = $resultatName -> rowCount();
-        $countLineFirstName = $resultatFistName -> rowCount();
-
-        var_dump($countLineName);
-        var_dump($countLineFirstName);
-
-        // Cela signifie que le nom et prenom  existe déjà en BDD sur la même ligne...
-        if($countLineName == $countLineFirstName){
-
-            $error .= '<div class="alert alert-danger">Cette personne : <b>' . $_POST['name'] .' '. $_POST['firstname'] .' </b> est déjà enregistrée dans notre base de donnée</div>';
-        }
-        elseif($resultatEmail -> rowCount() > 0){
+        
+       if($resultatEmail -> rowCount() > 0){
             // Cela signifie que le email existe déjà en BDD...
             $error .= '<div class="alert alert-danger">Cet email est déjà utilisé.</div>';
         }
@@ -121,34 +103,34 @@ require_once('inc/header.php');
 ?>
 
 
-<div>
-<h1>Inscription</h1>
+<div class="">
+    <h1>Inscription</h1>
 
 <!-- formulaire inscription -->
 <!-- ATTENTION --><?= $error ?><!-- ATTENTION -->
 
-<form method="post" action="">
-    
-    <div>
-		<label>Nom</label>
-		<input type="text" name="name" value="<?php if(isset($_POST['name'])){echo $_POST['name'];} ?>"/>
-	</div>
-    <div>
-		<label>Prénom</label>
-		<input type="text" name="firstname" value="<?php if(isset($_POST['firstname'])){echo $_POST['firstname'];} ?>"/>
-	</div>
-	<div>
-		<label>Email</label>
-		<input type="text" name="email" value="<?php if(isset($_POST['email'])){echo $_POST['email'];} ?>"/>
-	</div>
-	<div>
-		<label>Mot de passe</label>
-		<input type="password" name="password"/>
-	</div>
-    <div>
-        <input type="submit" value="Inscription" />
-    </div>
-</form>
+    <form method="post" action="">
+        
+        <div>
+            <label>Nom</label>
+            <input type="text" name="name" value="<?php if(isset($_POST['name'])){echo $_POST['name'];} ?>"/>
+        </div>
+        <div>
+            <label>Prénom</label>
+            <input type="text" name="firstname" value="<?php if(isset($_POST['firstname'])){echo $_POST['firstname'];} ?>"/>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="email" value="<?php if(isset($_POST['email'])){echo $_POST['email'];} ?>"/>
+        </div>
+        <div>
+            <label>Mot de passe</label>
+            <input type="password" name="password" value="<?php if(isset($_POST['password'])){echo $_POST['password'];} ?>"/>
+        </div>
+        <div>
+            <input type="submit" value="Inscription" />
+        </div>
+    </form>
 
 </div>
 

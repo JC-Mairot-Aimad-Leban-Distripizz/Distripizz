@@ -12,10 +12,22 @@
 </head>
 <body>
     <header>
-
-
     
-      <nav class=""></nav>  
+        <nav class="mainHead">
+            <h1 class="title-distripizz "><a  href="#">DISTRIPIZZ</a></h1>
+            <div class="zakNav">
+             
+                <div class="zakNav">
+                    <div class="elem2">
+                    <button  type="button" class="btn btn-secondary zakbouton">Contact</button>
+                    <!-- mettre telephone -->
+                    <div class="tel"><p>06 06 06 06 06</p></div>
+                    </div>
+                    
+                    <button  type="button" class="btn btn-secondary zakbouton">Connexion</button>
+                </div>
+            </div>
+        </nav>
     </header>
     
 
