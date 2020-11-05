@@ -1,7 +1,7 @@
 <?php
 //fait appel à init.php dans dossier inc (inclusion)
 require_once('inc/init.php');
-
+require_once('inc/fonctions.php');
 //code php
 
 
