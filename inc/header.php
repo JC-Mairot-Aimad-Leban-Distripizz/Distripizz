@@ -26,8 +26,7 @@
                     <?php if(!userConnecte()): ?>
                         <button  type="button" class="btn btn-secondary zakbouton"><a href="login.php">Connexion</a></button>
                         <?php else :  ?>
-                        <button  type="button" class="btn btn-secondary zakbouton"><a href="index.php?action=deco">Déconnexion</a></button>
-
+                            <button  type="button" class="btn btn-secondary zakbouton"><a href="deco.php">Déconnexion</a></button>
                     <?php endif; ?>
                 </div>
             </div>
