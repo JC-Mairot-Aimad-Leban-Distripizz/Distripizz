@@ -14,7 +14,7 @@
     <header>
     
         <nav class="mainHead">
-            <h1 class="title-distripizz "><a  href="#">DISTRIPIZZ</a></h1>
+            <h1 class="title-distripizz "><a  href="index.php">DISTRIPIZZ</a></h1>
             <div class="zakNav">
              
                 <div class="zakNav">
@@ -23,8 +23,12 @@
                     <!-- mettre telephone -->
                     <div class="tel"><p>06 06 06 06 06</p></div>
                     </div>
-                    
-                    <button  type="button" class="btn btn-secondary zakbouton">Connexion</button>
+                    <?php if(!userConnecte()): ?>
+                        <button  type="button" class="btn btn-secondary zakbouton"><a href="login.php">Connexion</a></button>
+                        <?php else :  ?>
+                        <button  type="button" class="btn btn-secondary zakbouton"><a href="index.php?action=deco">Déconnexion</a></button>
+
+                    <?php endif; ?>
                 </div>
             </div>
         </nav>

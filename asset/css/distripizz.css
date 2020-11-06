@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -28,6 +28,88 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: rgb(186, 22, 29);
+}
+.zakbouton {
+  margin: 0 10px;
+}
+.test {
+  border: 2px red solid;
+}
+.elem2 {
+  display: flex;
+}
+.tel {
+  background: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.tel:hover {
+  width: 150px;
+  border-radius: 20px;
+}
+/* footer */
+
+.myFooter i {
+  font-size: 3rem;
+}
+.fa-twitter-square {
+  color: aqua;
+}
+
+.test2 {
+  background: wheat;
+  height: 100vh;
+}
+
+/* css copy */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainHead {
+  background-color: rgb(237, 237, 237);
+  color: rgb(186, 22, 29);
+  box-shadow: 5px #333;
+}
+
+.mainFooter {
+  background-color: black;
+  min-height: 150px;
+  margin: 20px;
+}
+
+.zakNav {
+  min-height: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.title-distripizz {
+  text-align: center;
+  margin: 20px;
+}
+
+.distripizz-copyright {
+  font-size: smaller;
+  text-align: center;
+  color: rgb(253, 251, 251);
+  margin: 20px, 0, 0, 0;
+}
+
+.title-distripizz a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  color: rgb(186, 22, 29);
+  margin: 0;
 }
 .zakbouton {
   margin: 0 10px;

@@ -8,7 +8,7 @@ require_once('inc/fonctions.php');
 require_once('inc/header.php');
 ?>
 
-
+<div class="test2"></div>
 
 //php et html pour le corps de la page
 
