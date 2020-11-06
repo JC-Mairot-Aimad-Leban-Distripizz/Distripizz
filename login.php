@@ -39,29 +39,28 @@ if($_POST){
 
 require_once('inc/header.php');
 ?>
-
-<h1>Connexion</h1>
-	<!----message d'erreur------>
-	<?= $error ?> 
-	<!-- formulaire pour le login -->
-	<form method="post" action="" class="">
-	
-		<div class="form-group">
-			<label>email : </label>
-			<input type="text" name="email" class="form-control" />
+<div class="container indexBg">
+	<div class="fullPage">
+		<h1>Connexion</h1>
+		<!----message d'erreur------>
+		<?= $error ?> 
+		<!-- formulaire pour le login -->
+		<div id="login">
+			<form method="post">
+			<div class="form-group">
+				<label>Email : </label>
+				<input type="email" name="email" class="form-control" id="exampleFormControlInput1">
+			</div>
+			<div class="form-group">
+				<label>Mot de passe : </label>
+				<input type="password" name="password" class="form-control" id="exampleFormControlInput1">
+			</div>
+			<button type="submit" class="btn btn-dark" value="Connexion">Envoyer</button>
+			</form>
 		</div>
-		
-		<div class="form-group">
-			<label>Mot de passe : </label>
-			<input type="password" name="password" class="form-control" />
-		</div>
-	
-		<div class="form-group">
-			<input type="submit" class="btn btn-success" value="Connexion"/>
-		</div>
-	</form>
-
-
+	</div>
+	<div class="container-fluid photoBureau"></div>
+</div>
 <?php 
 include('inc/footer.php');
 ?>

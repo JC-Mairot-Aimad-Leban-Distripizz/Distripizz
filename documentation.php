@@ -12,13 +12,14 @@ require_once('inc/header.php');
 ?>
 
 <!-- injection des documentations dans HTML  -->
-<?php foreach($docs as $doc): extract($doc)?>
-    <div class="document">
-        <h2><?= $title ?></h2> 
-        <p class="txtDoc"><?= $text ?></p>      
-    </div> 
-<?php endforeach ?>
-
+<div class="container indexBg">
+    <?php foreach($docs as $doc): extract($doc)?>
+        <div class="document">
+            <h2><?= $title ?></h2> 
+            <p class="txtDoc"><?= $text ?></p>      
+        </div> 
+    <?php endforeach ?>
+</div>
 
 
 
