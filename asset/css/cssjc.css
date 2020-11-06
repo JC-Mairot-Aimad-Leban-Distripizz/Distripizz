@@ -1,0 +1,39 @@
+/* variable */
+:root {
+  --bodyBg: rgb(105, 55, 55);
+  --darkDpizz: #333;
+  --whiteDpizz: #eee;
+}
+
+/* generale */
+body {
+  background: var(--bodyBg);
+  position: relative;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* header */
+.mainHead {
+  background-color: rgb(237, 237, 237);
+  color: rgb(186, 22, 29);
+  box-shadow: 0 0 15px 0 #333;
+}
+
+/* corps générale de la page d'accueil */
+.indexBg {
+  width: 80%;
+  margin: 0 auto;
+  background: var(--whiteDpizz);
+}
+/* block qui somme nous */
+.whoRyou h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.whoRyou p {
+  margin: 10px 20px 20px;
+  text-align: center;
+}

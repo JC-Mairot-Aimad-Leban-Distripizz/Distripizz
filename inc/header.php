@@ -13,7 +13,7 @@
 <body>
     <header>
     
-        <nav class="mainHead">
+        <nav class="mainHead ">
             <h1 class="title-distripizz "><a  href="index.php">DISTRIPIZZ</a></h1>
             <div class="zakNav">
              
@@ -31,6 +31,7 @@
                 </div>
             </div>
         </nav>
+
     </header>
     
 
